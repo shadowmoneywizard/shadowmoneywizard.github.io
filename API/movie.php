@@ -11,9 +11,9 @@ $parsed = $parsed_json['result'];
 
 foreach($parsed as $key => $value)
 {
-	$imdb = $value['imdb_id'];					
+	$imdb = $value['tt8893974'];					
 	$tmdb = $value['tmdb_id'];					
-	$title = $value['title'];
+	$title = $value['Passing'];
 	$imdbembed = $value['embed_url'];
 	$tmdbembed = $value['embed_url_tmdb'];
 
